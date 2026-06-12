@@ -35,7 +35,9 @@ PixelNest Studio was created as part of a branding and web design assignment. Th
 * Vercel
 
 ## Project Structure
+
 PixelNest-Studio/
+│
 ├── index.html
 ├── style.css
 ├── script.js
