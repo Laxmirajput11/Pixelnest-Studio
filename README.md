@@ -5,7 +5,7 @@ professional online presence through graphic design, social media creatives, and
 Live Demo
 https://pixelnest-studio-plum.vercel.app/
 
-# About
+About
 PixelNest Studio was created as part of a branding and web design assignment. 
 The project focuses on building a complete brand identity and 
 presenting it through a clean, modern, and user-friendly website.
