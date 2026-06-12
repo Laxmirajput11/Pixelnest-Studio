@@ -36,6 +36,7 @@ PixelNest Studio was created as part of a branding and web design assignment. Th
 
 ## Project Structure
 
+```bash
 PixelNest-Studio/
 │
 ├── index.html
@@ -43,6 +44,7 @@ PixelNest-Studio/
 ├── script.js
 ├── assets/
 └── README.md
+```
 
 ## Design Concept
 
