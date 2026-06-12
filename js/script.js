@@ -1,13 +1,11 @@
 document.addEventListener('DOMContentLoaded', () => {
 
-  // ── Helper: safe IntersectionObserver creation ──
   const createObserver = (cb, opts) => {
     if (!('IntersectionObserver' in window)) return null;
     try { return new IntersectionObserver(cb, opts); }
     catch (e) { return null; }
   };
 
-  // ── Navbar: floating pill on scroll ──
   const navbar = document.getElementById('navbar');
   if (navbar) {
     const toggleScrolled = () => navbar.classList.toggle('scrolled', window.scrollY > 40);
@@ -15,7 +13,6 @@ document.addEventListener('DOMContentLoaded', () => {
     window.addEventListener('scroll', toggleScrolled);
   }
 
-  // ── Mobile nav menu ──
   const navToggle = document.getElementById('navToggle');
   const navMobile = document.getElementById('navMobile');
   if (navToggle && navMobile) {
@@ -42,14 +39,11 @@ document.addEventListener('DOMContentLoaded', () => {
       if (!navMobile.contains(e.target) && !navToggle.contains(e.target)) setOpen(false);
     });
   }
-
-  // ── Scroll reveal ──
   const revealObs = createObserver((entries) => {
     entries.forEach(e => { if (e.isIntersecting) e.target.classList.add('visible'); });
   }, { threshold: 0.1 });
   document.querySelectorAll('.reveal').forEach(el => revealObs ? revealObs.observe(el) : el.classList.add('visible'));
 
-  // ── About: pixel grid ──
   const grid = document.getElementById('pixelGrid');
   if (grid) {
     const COLS = 7, ROWS = 5, TOTAL = COLS * ROWS;
@@ -81,7 +75,6 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   }
 
-  // ── Services: interactive list + image preview ──
   const srvItems  = document.querySelectorAll('.srv-item');
   const srvPanels = document.querySelectorAll('.srv-panel');
   const srvBUrl   = document.getElementById('srvBUrl');
