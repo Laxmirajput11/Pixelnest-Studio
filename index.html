@@ -1,0 +1,435 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta name="description" content="PixelNest Studio — logos, social media creatives and websites for small businesses.">
+  <title>PixelNest Studio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- ════════ NAVBAR ════════ -->
+  <div class="nav-wrap">
+    <nav id="navbar">
+      <a href="#hero" class="nav-logo" aria-label="Go to top">
+        <img src="Logo-Light-theme.png" alt="PixelNest Studio" width="500" height="131" class="nav-logo-image" />
+      </a>
+
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#why-choose">Why us</a></li>
+        <li><a href="#contact" class="nav-cta">Let's talk</a></li>
+      </ul>
+
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle menu" aria-expanded="false">
+        <svg class="icon-menu" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="4" y1="7" x2="20" y2="7"/><line x1="4" y1="12" x2="20" y2="12"/><line x1="4" y1="17" x2="20" y2="17"/></svg>
+        <svg class="icon-close" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="display:none"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
+      </button>
+
+      <div class="nav-mobile" id="navMobile">
+        <a href="#about">About</a>
+        <a href="#services">Services</a>
+        <a href="#why-choose">Why us</a>
+        <a href="#contact" class="nav-cta-mobile">Let's talk</a>
+      </div>
+    </nav>
+  </div>
+
+  <!-- ════════ HERO ════════ -->
+  <section id="hero">
+    <div class="hero-shell">
+
+      <div class="hero-content">
+        <div class="hero-badge" role="status" aria-live="polite">
+          <span class="badge" aria-hidden="true"></span>
+          Creative studio for small businesses
+        </div>
+
+        <h1>We make small businesses<br><span>look big online.</span></h1>
+
+        <p class="hero-sub">PixelNest Studio crafts logos, social media creatives, and websites that build trust and attract customers for businesses just like yours.</p>
+
+        <div class="hero-btns">
+          <a href="#contact" class="btn btn-light">Let's build your brand →</a>
+          <a href="#services" class="btn btn-ghost">See our services</a>
+        </div>
+      </div>
+
+      <!-- stepped cutout, bottom-right -->
+      <div class="hero-cutout" aria-hidden="false">
+        <div class="cutout-step top">
+          <svg class="corner-curve curve-tl" viewBox="0 0 28 28" fill="currentColor"><path d="M28 28V0C28 15.46 15.46 28 0 28H28Z"/></svg>
+          <svg class="corner-curve curve-ml" viewBox="0 0 28 28" fill="currentColor"><path d="M28 28V0C28 15.46 15.46 28 0 28H28Z"/></svg>
+          <a href="#why-choose" class="cutout-link">
+            <span class="cutout-link-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 18 15 12 9 6"/></svg>
+            </span>
+            Why choose us
+          </a>
+        </div>
+        <div class="cutout-step bottom">
+          <svg class="corner-curve curve-ml" viewBox="0 0 28 28" fill="currentColor"><path d="M28 28V0C28 15.46 15.46 28 0 28H28Z"/></svg>
+          <div class="cutout-meta">
+            <div class="cutout-avatars" aria-hidden="true">
+              <span class="cutout-avatar a1">PN</span>
+              <span class="cutout-avatar a2">+</span>
+              <span class="cutout-avatar a3">★</span>
+            </div>
+            <div class="cutout-text">
+              <strong>50+ brands</strong>
+              <span>designed and launched so far</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ════════ ABOUT ════════ -->
+  <section id="about">
+    <div class="about-inner">
+      <div class="reveal">
+        <p class="section-eyebrow">About us</p>
+        <h2 class="section-title">Design that works as<br><span>hard as you do.</span></h2>
+        <div class="about-text">
+          <p>We're a creative studio built for small businesses that want to grow. From your first logo to your social media presence and website we handle the design so you can focus on running your business.</p>
+          <p>We believe every small business deserves great design not just the big ones with big budgets. That's why we keep our process simple, fast, and affordable.</p>
+        </div>
+        <div class="about-chips">
+          <span class="chip">Fast turnaround</span>
+          <span class="chip">Affordable pricing</span>
+          <span class="chip">Unlimited revisions</span>
+        </div>
+      </div>
+      <div class="about-visual reveal" aria-hidden="false">
+        <p class="about-card-label">Pixel by pixel, brand by brand</p>
+        <div class="about-pixel-grid" id="pixelGrid" role="presentation" aria-hidden="true"></div>
+        <p class="about-card-sub">Building identities <span>that stick.</span></p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ════════ SERVICES ════════ -->
+  <section id="services">
+    <div class="services-inner">
+
+      <div class="section-header-row reveal">
+        <div>
+          <p class="section-eyebrow">What we do</p>
+          <h2 class="section-title">Three services.<br><span>One studio.</span></h2>
+        </div>
+        <a href="#contact" class="btn btn-primary" style="flex-shrink:0;">Start a project →</a>
+      </div>
+
+      <div class="srv-interactive reveal">
+
+        <ul class="srv-list" id="srvList">
+
+          <li class="srv-item active" data-target="srv-panel-design" data-url="pixelneststudio.com/graphic-design">
+            <div class="srv-num-badge">01</div>
+            <div class="srv-item-body">
+              <h4 class="srv-item-title">Graphic Design</h4>
+              <p class="srv-item-desc">Everything that makes your brand look consistent and professional from first impressions to lasting recognition. Logos, cards, posters, and full brand guides.</p>
+            </div>
+          </li>
+
+          <li class="srv-item inactive" data-target="srv-panel-social" data-url="pixelneststudio.com/social-media">
+            <div class="srv-num-badge">02</div>
+            <div class="srv-item-body">
+              <h4 class="srv-item-title">Social Media Creatives</h4>
+              <p class="srv-item-desc">Eye-catching posts, stories, and cover graphics that stop the scroll and get your audience engaging designed for Instagram, Facebook, and beyond.</p>
+            </div>
+          </li>
+
+          <li class="srv-item inactive" data-target="srv-panel-web" data-url="pixelneststudio.com/website-design">
+            <div class="srv-num-badge">03</div>
+            <div class="srv-item-body">
+              <h4 class="srv-item-title">Website Design</h4>
+              <p class="srv-item-desc">Clean, fast, mobile-friendly websites that tell your story and turn visitors into customers with basic SEO set up from day one.</p>
+            </div>
+          </li>
+
+        </ul>
+
+        <div class="srv-preview-col">
+          <div class="srv-preview-shell">
+
+            <div class="srv-browser-bar">
+              <span class="srv-b-dot" style="background:#ff5f57"></span>
+              <span class="srv-b-dot" style="background:#febc2e"></span>
+              <span class="srv-b-dot" style="background:#28c840"></span>
+              <span class="srv-b-url" id="srvBUrl">pixelneststudio.com/graphic-design</span>
+            </div>
+
+            <div class="srv-panel active" id="srv-panel-design">
+              <img src="https://images.unsplash.com/photo-1626785774573-4b799315345d?w=800&q=80" alt="Graphic design — brand identity work on a desk" loading="lazy"/>
+              <div class="srv-caption">
+                <span class="srv-caption-label">Service 01</span>
+                <h5 class="srv-caption-title">Graphic Design</h5>
+                <p class="srv-caption-desc">Your logo is the first thing people judge you by. We make sure that first impression counts and holds up everywhere from your business card to your billboard.</p>
+                <div class="srv-tags">
+                  <span class="chip">Logo & identity</span>
+                  <span class="chip">Brand guide</span>
+                  <span class="chip">Print-ready</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="srv-panel" id="srv-panel-social">
+              <img src="https://images.pexels.com/photos/15406294/pexels-photo-15406294.jpeg?w=800&q=80" alt="Social media creatives — phone showing Instagram feed" loading="lazy"/>
+              <div class="srv-caption">
+                <span class="srv-caption-label">Service 02</span>
+                <h5 class="srv-caption-title">Social Media Creatives</h5>
+                <p class="srv-caption-desc">Consistent, on-brand content that looks like it came from an in-house team. Posts, stories, and ad creatives that actually get saved and shared.</p>
+                <div class="srv-tags">
+                  <span class="chip">Posts & stories</span>
+                  <span class="chip">Ad creatives</span>
+                  <span class="chip">Templates</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="srv-panel" id="srv-panel-web">
+              <img src="https://images.unsplash.com/photo-1547658719-da2b51169166?w=800&q=80" alt="Website design — clean website on a laptop screen" loading="lazy"/>
+              <div class="srv-caption">
+                <span class="srv-caption-label">Service 03</span>
+                <h5 class="srv-caption-title">Website Design</h5>
+                <p class="srv-caption-desc">A website that loads fast, looks sharp on every screen, and is built to convert visitors into real enquiries not just a pretty page nobody finds.</p>
+                <div class="srv-tags">
+                  <span class="chip">Mobile-first</span>
+                  <span class="chip">SEO setup</span>
+                  <span class="chip">5-day delivery</span>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ════════ WHY CHOOSE US — bento grid ════════ -->
+  <section id="why-choose">
+    <div class="whyc-inner">
+
+      <div class="section-header-row reveal">
+        <div>
+          <p class="section-eyebrow">Why choose us</p>
+          <h2 class="section-title">Honest work.<br><span>Real results.</span></h2>
+        </div>
+      </div>
+
+      <div class="whyc-grid">
+
+        <!-- 01 — span 2, light, illustration -->
+        <article class="whyc-card span2 light has-illustration reveal">
+          <div class="whyc-illustration" aria-hidden="true">
+            <svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+              <circle cx="100" cy="100" r="88" fill="none" stroke="#47216B" stroke-opacity="0.10" stroke-width="14"/>
+              <circle cx="100" cy="100" r="88" fill="none" stroke="#9B6DC4" stroke-width="14" stroke-linecap="round" stroke-dasharray="553" stroke-dashoffset="150" transform="rotate(-90 100 100)"/>
+              <circle cx="100" cy="100" r="54" fill="#47216B" fill-opacity="0.07"/>
+              <line x1="100" y1="100" x2="100" y2="58" stroke="#47216B" stroke-width="6" stroke-linecap="round"/>
+              <line x1="100" y1="100" x2="132" y2="118" stroke="#6B3BA0" stroke-width="6" stroke-linecap="round"/>
+              <circle cx="100" cy="100" r="6" fill="#47216B"/>
+            </svg>
+          </div>
+          <div class="whyc-body">
+            <div class="whyc-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+            </div>
+            <h3>5-day turnaround</h3>
+            <p>We know you can't wait three weeks for a logo. Most projects are done in five business days without cutting corners on quality.</p>
+          </div>
+        </article>
+
+        <!-- 02 — deep purple -->
+        <article class="whyc-card deep reveal" style="transition-delay:.05s">
+          <div class="whyc-body">
+            <div class="whyc-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+            </div>
+            <h3>Unlimited revisions</h3>
+            <p>We don't ship and disappear. You get revisions until you're happy with the result that's the only finish line that matters to us.</p>
+          </div>
+        </article>
+
+        <!-- 03 — deep purple -->
+        <article class="whyc-card deep reveal" style="transition-delay:.1s">
+          <div class="whyc-body">
+            <div class="whyc-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke-linecap="round" stroke-linejoin="round"><line x1="12" y1="1" x2="12" y2="23"/><path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/></svg>
+            </div>
+            <h3>Priced for small business</h3>
+            <p>No agency markup, no surprise invoices. Flat, transparent pricing because great design shouldn't be something only big budgets can afford.</p>
+          </div>
+        </article>
+
+        <!-- 04 — span 2, light, illustration -->
+        <article class="whyc-card span2 light has-illustration reveal" style="transition-delay:.15s">
+          <div class="whyc-illustration" aria-hidden="true">
+            <svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+              <g fill="#47216B">
+                <circle cx="40"  cy="40"  r="14" fill-opacity="0.10"/>
+                <circle cx="100" cy="40"  r="14" fill-opacity="0.30"/>
+                <circle cx="160" cy="40"  r="14" fill-opacity="0.10"/>
+                <circle cx="40"  cy="100" r="14" fill-opacity="0.30"/>
+                <circle cx="100" cy="100" r="22" fill-opacity="0.85"/>
+                <circle cx="160" cy="100" r="14" fill-opacity="0.30"/>
+                <circle cx="40"  cy="160" r="14" fill-opacity="0.10"/>
+                <circle cx="100" cy="160" r="14" fill-opacity="0.30"/>
+                <circle cx="160" cy="160" r="14" fill-opacity="0.10"/>
+              </g>
+            </svg>
+          </div>
+          <div class="whyc-body">
+            <div class="whyc-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke-linecap="round" stroke-linejoin="round"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+            </div>
+            <h3>Built for your audience</h3>
+            <p>We don't just make things look nice we think about who your customers are and design everything to speak directly to them.</p>
+          </div>
+        </article>
+
+       
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ════════ CONTACT ════════ -->
+  <section id="contact">
+    <div class="contact-inner">
+      <div class="reveal">
+        <p class="section-eyebrow">Contact</p>
+        <h2 class="section-title">Let's work<br><span>together.</span></h2>
+        <p class="contact-desc">Got a project in mind? Drop us a message and we'll get back to you within 24 hours.</p>
+        <div class="contact-details" aria-hidden="false">
+          <div class="contact-detail">
+            <div class="contact-detail-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" focusable="false" aria-hidden="true"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+            </div>
+            <span class="contact-detail-text">hello@pixelneststudio.com</span>
+          </div>
+          <div class="contact-detail">
+            <div class="contact-detail-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" focusable="false" aria-hidden="true"><rect x="2" y="2" width="20" height="20" rx="5"/><path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg>
+            </div>
+            <span class="contact-detail-text">@pixelneststudio</span>
+          </div>
+        </div>
+      </div>
+
+      <form class="contact-form reveal" style="transition-delay:0.2s;" action="#" method="post" novalidate>
+        <div class="form-row">
+          <div class="form-group">
+            <label for="contact-name">Your name</label>
+            <input id="contact-name" name="name" type="text" placeholder="Arjun Sharma" autocomplete="name" required/>
+          </div>
+          <div class="form-group">
+            <label for="contact-email">Email address</label>
+            <input id="contact-email" name="email" type="email" placeholder="hello@yourbrand.com" autocomplete="email" required/>
+          </div>
+        </div>
+        <div class="form-group">
+          <label for="contact-service">What do you need?</label>
+          <select id="contact-service" name="service" required>
+            <option value="" disabled selected>Select a service</option>
+            <option>Graphic Design</option>
+            <option>Social Media Creatives</option>
+            <option>Website Design</option>
+            <option>Full Brand Package</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label for="contact-message">Tell us about your project</label>
+          <textarea id="contact-message" name="message" placeholder="Give us a brief idea of what you're looking for..." required></textarea>
+        </div>
+        <button class="btn-submit" type="submit" aria-label="Send message">
+          Send message
+          <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" focusable="false" aria-hidden="true"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+        </button>
+      </form>
+    </div>
+  </section>
+
+  <!-- ════════ FOOTER ════════ -->
+  <footer>
+    <div class="footer-grid">
+
+      <div class="footer-brand">
+        <a href="#hero" class="footer-logo" aria-label="Go to top">
+          <img src="Logo-Dark-theme.png" alt="PixelNest Studio" width="500" height="135" class="footer-logo-image" />
+        </a>
+        <p class="footer-desc">A creative studio that helps small businesses look as good online as they are in real life — logos, social content, and websites, all from one team.</p>
+        <div class="footer-socials">
+          <a href="#" class="footer-social" aria-label="Instagram">
+            <svg viewBox="0 0 24 24"><rect x="2" y="2" width="20" height="20" rx="5"/><path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg>
+          </a>
+          <a href="#" class="footer-social" aria-label="Facebook">
+            <svg viewBox="0 0 24 24"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg>
+          </a>
+          <a href="#" class="footer-social" aria-label="LinkedIn">
+            <svg viewBox="0 0 24 24"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-4 0v7h-4v-7a6 6 0 0 1 6-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg>
+          </a>
+        </div>
+      </div>
+
+      <div class="footer-col">
+        <h4>Quick links</h4>
+        <ul>
+          <li><a href="#hero">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#why-choose">Why us</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h4>Services</h4>
+        <ul>
+          <li><a href="#services">Graphic Design</a></li>
+          <li><a href="#services">Social Media Creatives</a></li>
+          <li><a href="#services">Website Design</a></li>
+          <li><a href="#contact">Full Brand Package</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h4>Get in touch</h4>
+        <div class="footer-contact-item">
+          <svg viewBox="0 0 24 24"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+          <span>hello@pixelneststudio.com</span>
+        </div>
+        <div class="footer-contact-item" style="margin-top:14px">
+          <svg viewBox="0 0 24 24"><rect x="2" y="2" width="20" height="20" rx="5"/><path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg>
+          <span>@pixelneststudio</span>
+        </div>
+        <div class="footer-contact-item" style="margin-top:14px">
+          <svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+          <span>We reply within 24 hours</span>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="footer-bottom">
+      <p>©️ 2026 PixelNest Studio. All rights reserved.</p>
+      <div class="footer-bottom-links">
+        <a href="#">Privacy policy</a>
+        <a href="#">Terms of service</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/script.js" defer></script>
+</body>
+</html>
